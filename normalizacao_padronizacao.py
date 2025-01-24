@@ -6,7 +6,7 @@ pd.set_option('display.max_colwidth', None)
 
 df = pd.read_csv('clientes-v2-tratados.csv')
 
-print(df.head())
+# print(df.head())
 
 df = df.drop(['data', 'estado', 'nivel_educacao', 'numero_filhos', 'estado_civil', 'area_atuacao'], axis=1) 
 
